@@ -1,28 +1,40 @@
-name: leeambrose
 favicon: null
-layout_spectrum: 0.6843908096197993
-typography_spectrum: 0.5105951523873955
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: leeambrose
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.2046187
+  brandStrength: 0.1875
+  lightness: 0.4957035
   brandColors:
     - '#0f57a1'
     - '#000000'
     - '#ffffff'
     - '#0000ff'
     - '#00ffff'
-  brandStrength: 0.1875
-  lightness: 0.3680555294267833
-  saturation: 0.75
-  rhythmicContrast: 0.18264350318349898
-purpose: []
+  rhythmicContrast: 0
+typography_spectrum: 0.2744361
+layout_spectrum: 1
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
